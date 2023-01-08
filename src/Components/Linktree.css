@@ -1,0 +1,89 @@
+#mikkymouse{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: right;
+    margin-top:24.5%;
+}
+@media only screen and (max-width: 600px){
+    #mikkymouse{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top:60%;
+    float: left;
+    margin-left: 60%;
+    }
+}
+#mikkywave{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+@media only screen and (max-width: 600px){
+    #mikkywave{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: 40%;
+    gap: 20px;
+  }
+  @media only screen and (max-width: 600px){
+    .flex-container {
+        font-size: 10px;
+        width: 150px;
+        height: 200px;
+        margin-left: 30%;
+        gap: 20px;
+        font-size: 15px;
+        margin-top: 24%;
+
+      }
+}
+  
+  .flex-item-left {
+    background-color: #e8ee42;
+    padding: 10px;
+    flex: 50%;
+    color: rgb(231, 15, 12);
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+  }
+  
+  .flex-item-right {
+    background-color: rgb(231, 15, 12);
+    padding: 10px;
+    flex: 50%;
+    color: #e8ee42;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+  }
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+  .back{
+    background-color: yellow;
+    padding: 10px;
+    width: 30px;
+    height:15px;
+    margin-left: 40%;
+    font-size: 15px;
+    color: red;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
+  .back:hover{
+    background-color: #f0220b;
+    color: #e4e81a;
+}

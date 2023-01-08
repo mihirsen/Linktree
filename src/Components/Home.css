@@ -1,0 +1,94 @@
+*{
+    background-color: rgb(22, 234, 107);
+}
+.Home{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+@media only screen and (max-width: 600px){
+    .Home{
+        margin-left: 2%;
+    }
+}
+
+.Linktreelogo{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+}
+.Wellcome{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(229, 14, 6);    
+}
+
+.happyMikky{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 600px){
+    .happyMikky{
+        margin-left: 25%;
+        margin-top: 30%;
+    }  
+}
+.Login{
+    margin-left: 5%;
+}
+@media only screen and (max-width: 600px){
+    .Login{
+        margin-left: 15%;
+        margin-top: 15%;
+    }    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    gap: 15px;
+    
+}
+#name{
+    padding: 15px;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ea210a;
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+}
+::placeholder{
+    color: rgb(18, 1, 1);
+}
+#submit{
+    background-color: #e4e81a;
+    font-size: 13px;
+    width: 70px;
+    color: rgb(240, 10, 10);
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 11%;
+    border-radius: 15px 15px 15px 15px;
+}
+@media only screen and (max-width: 600px){
+   #submit{
+    margin-left: 30%;
+   }   
+}
+
+#submit:hover{
+    background-color: #f0220b;
+    color: #e4e81a;
+}
